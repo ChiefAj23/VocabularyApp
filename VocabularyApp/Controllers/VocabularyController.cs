@@ -17,6 +17,18 @@ namespace VocabularyApp.Controllers
         {
             _context = context;
         }
+        
+        // GET: Vocabulary/ShowSearchForm
+        public IActionResult ShowSearchForm()
+        {
+            return View();
+        }
+        
+        // POST: Vocabulary/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(string SearchPhrase)
+        {
+            return View("Index",await _context.Vocabulary.Where(j=>j.Word.Contains(SearchPhrase)).ToListAsync());
+        }
 
         // GET: Vocabulary
         public async Task<IActionResult> Index()
