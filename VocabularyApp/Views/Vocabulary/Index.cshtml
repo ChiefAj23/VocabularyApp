@@ -19,12 +19,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Definition)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RelatedWords)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -36,12 +30,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Definition)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RelatedWords)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
