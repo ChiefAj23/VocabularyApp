@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyApp", "VocabularyApp\VocabularyApp.csproj", "{6EDB9583-E494-4DA8-A4FF-B4E8D454776A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDB9583-E494-4DA8-A4FF-B4E8D454776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDB9583-E494-4DA8-A4FF-B4E8D454776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDB9583-E494-4DA8-A4FF-B4E8D454776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDB9583-E494-4DA8-A4FF-B4E8D454776A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
